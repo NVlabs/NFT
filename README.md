@@ -5,6 +5,7 @@
 [![Paper](https://img.shields.io/badge/paper-5f16a8?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2505.18116)
 [![Blog](https://img.shields.io/badge/Blog-3858bf?style=for-the-badge&logo=homepage&logoColor=white)](https://research.nvidia.com/labs/dir/Negative-aware-Fine-Tuning/)
 [![Dataset](https://img.shields.io/badge/Datasets-4d8cd8?style=for-the-badge&logo=huggingface&logoColor=white)](https://huggingface.co/datasets/ChenDRAG/VeRL_math_validation)
+[![Weights](https://img.shields.io/badge/Model%20Weights-63cad3?style=for-the-badge&logo=huggingface&logoColor=white)](https://huggingface.co/nvidia/NFT-32B)
 </div>
 
 <p align="center">
@@ -72,6 +73,8 @@ pip install git+ssh://git@github.com/volcengine/verl.git@01ef7184821d0d7844796ec
 ```
 
 ### Benchmarking
+
+Pretrained [7B](https://huggingface.co/nvidia/NFT-7B) and [32B](https://huggingface.co/nvidia/NFT-32B) models can be found at Huggingface.
 
 We provide the evaluation codebase integrated in the VeRL infra:
 
